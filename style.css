@@ -23,7 +23,8 @@ body{
     width: 80%;
     height: 100%;
 	margin: auto;
-	padding: 30px 0 ;
+	padding: 210px 0 ;
+	padding-top: 10px;
 	}
 
 .rodape{
@@ -74,6 +75,13 @@ body{
 	font-family: Californian;
 	width: 70%;
 	}
+	
+#index {
+	
+	font-size: 18px;
+	font-family: Californian;
+		
+}
 
 #costumizacao td, #costumizacao th {
 	border: 1px solid #ddd;
