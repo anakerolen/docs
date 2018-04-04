@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+				<meta charset="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="style.css" rel="stylesheet"/>
+        <title>Detalhe da Disciplina</title>
+    </head>
+    <body>
+        <div class="cabecalho">
+			<div class="logo"><img src="Tech_Info.png"></div>
+			<div class="menu">
+				<ul>
+					<li class="dropdown">
+					<a href="cursos.html" class="dropbtn">Cursos</a>
+					<div class="dropdown-content">
+					  <a href="detalhe_ads.html">Detalhe do Curso</a>
+					</div>
+				  </li>
+					<li class="dropdown">
+					<a href="disciplinas_do_curso.html" class="dropbtn">Disciplinas</a>
+					<div class="dropdown-content">
+					  <a href="detalhe_disciplina.html">Detalhe das Disciplinas</a>
+					</div>
+				  </li>
+
+				  <li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn">Sugestões</a>
+					<div class="dropdown-content">
+					  <a href="formulario_novo_curso.html">Novo Curso</a>
+					  <a href="formulario_nova_disciplina.html">Nova Diciplina</a>
+					</div>
+					<li><a href="login.html">Login</a></li>
+
+				  </li>
+				</ul>
+			</div>
+
+
+        </div>
+        <div class="main">
+								<h2> Formulário para adicionar uma nova disciplina </h2>
+								<div class="form">
+
+								<form action="pamela-wasen@hotmail.com"method="POST">
+											<div id = "formulario"><br>
+												<label for="nome">Nome:</label><br>
+												<input type="text" name="nome" maxlength="100"id="nome"><br>
+											</div>
+											<div id = "email">
+												<label for="email">Email:</label><br>
+												<input type="email" name="email" id="email"><br>	
+											
+												Selecione o curso que deseja inserir uma disciplina nova <br/>
+											<div id = "selecao">
+												<select name = "Nome_do_curso">
+												<option>Selecione</option>
+												<option>Banco de dados</option>
+												<option>Administração</option>
+												<option>Análise e Desenvolvimento de Sistemas</option>
+												<option>Gestão de Tecnologia da Informação</option>
+												<option>Jogos Digitais</option>
+												<option>Processos gerenciais</option>
+												<option>Redes de computadores</option>
+												</select>	
+											</div>
+											<div id="formulario">
+												<br/>
+												<label for="disciplina">Nome da disciplina:</label><br>
+												<input type="text" name="disciplina" maxlength="100"id="disciplina"><br>
+												
+												<label for="qtdhoras">Carga Horaria</label><br>
+												<input type="time" name="qtdhoras" maxlength="100"id="qtdhoras"><br>
+											</div>
+											
+											<div id="mensagem">
+												Sugestões:<br/>
+												<textarea rows="4" cols="50">Digite sua sugestão para a nova disciplina</textarea>
+												<br/>
+												<input type="submit" value="Enviar">
+											</div>
+											</div>
+				</div>
+				</div>
+
+        <div id="rod" class="rodape">
+		
+	
+		<h2>Endereço: Avenida Rudge, 315 - Barra Funda - São Paulo / SP Contato: Tel: 11 3254-8300 </h2>
+		
+	</div>
+ 
+    </body>
+</html>
